@@ -10,3 +10,5 @@ if hrs<=40:
 else:
    pay = (hrs-40)*(rate*1.5) + 40*rate
    print (pay)
+
+print("you are the best")

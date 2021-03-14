@@ -1,8 +1,11 @@
 hrs = input("Enter Hours :")
 rate = input("Enter Rate per hour :")
-
-hrs = float(hrs)
-rate = float(rate)
+try:
+    hrs = float(hrs)
+    rate = float(rate)
+except:
+    print("Error, please enter numberic value")
+    quit()
 
 if hrs<=40:
    pay = hrs*rate

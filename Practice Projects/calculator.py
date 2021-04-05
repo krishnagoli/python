@@ -4,7 +4,7 @@
 def addition ():
     print("Addition")
     n = float(input("Enter the number: "))
-    t = 0 //Total number enter
+    t = 0 #Total number enter
     ans = 0
     while n != 0:
         ans = ans + n
@@ -14,7 +14,7 @@ def addition ():
 def subtraction ():
     print("Subtraction");
     n = float(input("Enter the number: "))
-    t = 0 //Total number enter
+    t = 0 #Total number enter
     sum = 0
     while n != 0:
         ans = ans - n
@@ -24,7 +24,7 @@ def subtraction ():
 def multiplication ():
     print("Multiplication")
     n = float(input("Enter the number: "))
-    t = 0 //Total number enter
+    t = 0 #otal number enter
     ans = 1
     while n != 0:
         ans = ans * n
@@ -38,7 +38,7 @@ def average():
     a = an[0]
     ans = a / t
     return [ans,t]
-// main...
+#main...
 while True:
     list = []
     print(" My first python program!")

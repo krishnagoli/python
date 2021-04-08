@@ -1,0 +1,14 @@
+GET https://jsonplaceholder.typicode.com/posts
+
+###
+
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+    "title": "New Post",
+    "body": "This is a new post"
+}
+
+# This is an extension called Rest Client by Huachao Mao. Helps in testing Rest APIs like postman software
+

@@ -7,8 +7,8 @@ mul = numa * numb
 div = numa / numb
 mod = numa % numb
 
-print('Sum of {} and {} is {}'.format(numa,numb,add))
-print('Difference of {} and {} is {}'.format(numa,numb,sub))
-print('Product of {} and {} is {}'.format(numa,numb,mul))
-print('Division of {} and {} is {}'.format(numa,numb,div))
-print('Modulus of {} and {} is {}'.format(numa,numb,mod))
+print('Sum of {} and {} is {}'.format(numa, numb, add))
+print('Difference of {} and {} is {}'.format(numa, numb, sub))
+print('Product of {} and {} is {}'.format(numa, numb, mul))
+print('Division of {} and {} is {}'.format(numa, numb, div))
+print('Modulus of {} and {} is {}'.format(numa, numb, mod))
